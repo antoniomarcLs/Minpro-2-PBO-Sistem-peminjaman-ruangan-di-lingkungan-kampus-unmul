@@ -427,7 +427,7 @@ Ruangan ruangan=jenis==1
 
 Variabel `ruangan` bertipe `Ruangan`, tapi objek yang sebenarnya ia tunjuk bisa berupa `MeetingRoom` **atau** `Laboratorium`, tergantung pilihan pengguna (`jenis`). Class `Peminjaman` bahkan hanya perlu menyimpan referensi `Ruangan` (`private Ruangan ruangan;`) tanpa perlu tahu — atau peduli — apakah objek itu sebenarnya `MeetingRoom` atau `Laboratorium`. Inilah inti polymorphism: satu tipe referensi, banyak bentuk perilaku nyata.
 
-![Output berbeda untuk Meeting Room dan Laboratorium](gambar/output-jenis-ruangan.png)
+![Output berbeda untuk Meeting Room dan Laboratorium](gambar/cek-status-lengkap.png)
 
 ### 6. Dummy Data
 
